@@ -1,42 +1,10 @@
 
-# 🌠 Personalized Horoscope API
-
-A Node.js + PostgreSQL backend service that generates and serves personalized daily horoscopes for users based on their zodiac sign.
-
-
-
-## 📦 Tech Stack
-
-- Node.js
-- Express.js
-- PostgreSQL
-- JWT Authentication
-- Moment.js
-- bcrypt for password hashing
-
-
-
-## 📁 Project Structure
-
-
-horoscope-api/
-├── controllers/          # Route logic
-├── middlewares/          # Auth & rate limit middlewares
-├── models/               # DB connection
-├── routes/               # Route definitions
-├── utils/                # Zodiac calculation logic
-├── app.js                # Entry point
-├── .env                  # Environment config
-└── setup.sql             # SQL to initialize DB
-
-
 ## ✅ Features
 
 - **User Signup/Login** (with JWT)
 - **Zodiac auto-detection** from birthdate
 - **GET /horoscope/today**: Get today's horoscope
 - **GET /horoscope/history**: View last 7 days
-
 
 ---
 ## ⚙️ Setup Instructions
